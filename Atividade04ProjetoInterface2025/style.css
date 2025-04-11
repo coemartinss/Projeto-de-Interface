@@ -1,0 +1,372 @@
+body {
+    font-family: 'Anton', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
+    color: #000000;
+  }
+  
+  .menu {
+    background-color: #ffffff;
+    padding: 20px;
+    text-align: center;
+    border-bottom: 3px solid #000;
+  }
+  
+  .menu ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .menu ul li {
+    display: inline-block;
+    margin: 0 20px;
+  }
+  
+  .menu ul li a {
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.3s;
+  }
+  
+  .menu ul li a:hover {
+    color: white;
+    background-color: #d50000;
+    padding: 5px 10px;
+    border-radius: 5px;
+  }
+  
+
+  .entrada img {
+    width: 100%;
+    height: auto;
+    display: block;
+    margin-bottom: 30px;
+  }
+  
+.rodape {
+    background-color: #000;
+    color: #fff;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+  
+  .info-rodape {
+    flex: 1;
+    padding: 10px;
+    font-size: 14px;
+  }
+  
+  .icones-rodape {
+    flex: 1;
+    text-align: right;
+    padding: 10px;
+  }
+  
+  .icones-rodape a {
+    display: inline-block;
+    margin-left: 10px;
+  }
+  
+  .icones-rodape img {
+    width: 24px;
+    height: 24px;
+    transition: transform 0.3s;
+  }
+  
+  .icones-rodape img:hover {
+    transform: scale(1.2);
+  }
+  
+
+  
+  @media (max-width: 768px) {
+    .rodape {
+      flex-direction: column;
+      text-align: center;
+    }
+  
+    .icones-rodape {
+      text-align: center;
+      margin-top: 15px;
+    }
+  }
+
+  /* pag1 */
+.pagina01 {
+    background-color: #f0f0f0; 
+    font-family: 'Merriweather', serif;
+  }
+  
+  .conteudo-historia {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    text-align: justify;
+  }
+  
+  .conteudo-historia h1 {
+    font-size: 32px;
+    margin-bottom: 20px;
+    color: #111;
+  }
+  
+  .conteudo-historia img {
+    width: 100%;
+    border-radius: 8px;
+    margin-bottom: 20px;
+  }
+  
+  .conteudo-historia p {
+    font-size: 18px;
+    line-height: 1.7;
+    margin-bottom: 15px;
+    color: #333;
+    text-indent: 30px;
+  }
+  
+
+  /* pag2 */
+.pagina2 {
+    background-color: #e8f4ff; 
+    font-family: 'Oswald', sans-serif;
+  }
+  
+  .conteudo-titulos {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  }
+  
+  .conteudo-titulos h1 {
+    font-size: 30px;
+    margin-bottom: 20px;
+    color: #002244;
+    text-align: center;
+  }
+  
+  .conteudo-titulos ul {
+    list-style-type: square;
+    font-size: 18px;
+    line-height: 1.6;
+    color: #333;
+    padding-left: 20px;
+    margin-bottom: 30px;
+  }
+  
+  .conteudo-titulos li {
+    margin-bottom: 10px;
+  }
+  
+  .conteudo-titulos img {
+    width: 100%;
+    border-radius: 8px;
+    margin-top: 20px;
+  }
+
+  
+  /* pag3 */
+.pagina3 {
+    background-color: #fff6e6; 
+    font-family: 'Bebas Neue', cursive;
+  }
+  
+  .conteudo-elenco {
+    max-width: 1000px;
+    margin: 40px auto;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .conteudo-elenco h1 {
+    font-size: 36px;
+    margin-bottom: 30px;
+    color: #222;
+    letter-spacing: 1px;
+  }
+  
+  .cards-jogadores {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+  }
+  
+  .jogador {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 15px;
+    width: 200px;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+  }
+  
+  .jogador img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 10px;
+  }
+  
+  .jogador p {
+    font-size: 18px;
+    color: #000;
+  }
+  
+  .jogador:hover {
+    transform: scale(1.05);
+  }
+
+  
+  /* pag4 */
+.pagina4 {
+    background-color: #fff0f5;
+    font-family: 'Rajdhani', sans-serif;
+  }
+  
+  .conteudo-torcida {
+    max-width: 900px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 12px rgba(0, 0, 0, 0.1);
+  }
+  
+  .conteudo-torcida h1 {
+    font-size: 36px;
+    text-align: center;
+    margin-bottom: 20px;
+    color: #990000;
+  }
+  
+  .conteudo-torcida img {
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .conteudo-torcida section {
+    margin-bottom: 25px;
+  }
+  
+  .conteudo-torcida h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #222;
+  }
+  
+  .conteudo-torcida p {
+    font-size: 17px;
+    line-height: 1.7;
+    text-align: justify;
+    color: #333;
+  }
+  
+
+  /* pag5 */
+.pagina-contato {
+    background-color: #e0f7fa;
+    font-family: 'Ubuntu', sans-serif;
+  }
+  
+  .conteudo-contato {
+    max-width: 700px;
+    margin: 40px auto;
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  }
+  
+  .conteudo-contato h1 {
+    text-align: center;
+    margin-bottom: 25px;
+    color: #006064;
+  }
+  
+  .conteudo-contato label {
+    display: block;
+    margin-top: 15px;
+    font-weight: bold;
+  }
+  
+  .conteudo-contato input,
+  .conteudo-contato textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .conteudo-contato button {
+    margin-top: 20px;
+    background-color: #00796b;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: 0.3s;
+  }
+  
+  .conteudo-contato button:hover {
+    background-color: #004d40;
+  }
+  
+
+  /* pag6 */
+.pagina6 {
+    background-color: #f4f4ec;
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  .conteudo-sobre {
+    max-width: 800px;
+    margin: 40px auto;
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .conteudo-sobre h1 {
+    text-align: center;
+    font-size: 32px;
+    margin-bottom: 25px;
+    color: #333;
+  }
+  
+  .conteudo-sobre p {
+    font-size: 16px;
+    line-height: 1.7;
+    margin-bottom: 15px;
+    text-align: justify;
+  }
+  
+  .conteudo-sobre ul {
+    list-style-type: disc;
+    padding-left: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .conteudo-sobre li {
+    font-size: 16px;
+    margin-bottom: 8px;
+  }
+  
