@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title>Formulário</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+
+  <h2>Formulário de Cadastro</h2>
+
+  <form action="#" method="post">
+    <fieldset>
+      <legend>Informações Pessoais</legend>
+      
+      <label>Nome:</label>
+      <input type="text" name="nome" required><br><br>
+
+      <label>Idade:</label>
+      <input type="number" name="idade" required><br><br>
+
+      <label>Email:</label>
+      <input type="email" name="email"><br><br>
+
+      <label>Senha:</label>
+      <input type="password" name="senha"><br><br>
+
+      <label>Data de Nascimento:</label>
+      <input type="date" name="nascimento"><br><br>
+
+      <label>Sexo:</label><br>
+      <input type="radio" name="sexo" value="masculino" required> Masculino<br>
+      <input type="radio" name="sexo" value="feminino" required> Feminino<br>
+      <input type="radio" name="sexo" value="outro" required> Outro<br><br>
+
+      <label>Interesses:</label><br>
+      <input type="checkbox" name="interesse" value="html" required> Python
+      <input type="checkbox" name="interesse" value="css"> C++
+      <input type="checkbox" name="interesse" value="js"> TypeScript<br><br>
+
+      <Label>Telefone: </Label>
+      <input type="tel" name= "telefone" placeholder="(70) 77070-7070" maxlength="15">  
+
+      <label>Cor Favorita:</label>
+      <input type="color" name="cor"><br><br>
+
+      <label>Arquivo:</label>
+      <input type="file" name="arquivo"><br><br>
+
+      <label>URL pessoal:</label>
+      <input type="url" name="site"><br><br>
+
+      <label>Estado Civil:</label>
+      <select name="estado_civil">
+        <option value="solteiro">Solteiro(a)</option>
+        <option value="casado">Casado(a)</option>
+        <option value="divorciado">Divorciado(a)</option>
+        <option value="viuvo">Viúvo(a)</option>
+      </select><br><br>
+      
+
+      <label>Cidade:</label>
+      <input type="text" name="cidade"><br><br>
+
+      <label>Estado:</label>
+      <select name="estado">
+        <option value="SP">SP</option>
+        <option value="RJ">RJ</option>
+        <option value="MG">MG</option>
+      </select><br><br>
+
+      <label>Comentários:</label><br>
+      <textarea name="comentarios" rows="4" cols="50"></textarea><br><br>
+
+      <input type="reset" value="Limpar">
+      <input type="submit" value="Enviar">
+    </fieldset>
+  </form>
+</body>
+</html>
